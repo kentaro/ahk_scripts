@@ -1,4 +1,4 @@
-﻿# SandS
+﻿; SandS
 ; https://gist.github.com/eihigh/41fefcf7c9e8f2a6f1e47a3c7d7a6df5
 
 press := 0     ; スペースキーを押しているかどうか。
