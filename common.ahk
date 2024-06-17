@@ -1,4 +1,5 @@
-﻿main() {
+﻿; 共通
+main() {
   ListLines 0
 
   SetControlDelay 0

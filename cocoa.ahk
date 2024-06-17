@@ -1,4 +1,7 @@
-﻿set_ignore_applications() {
+﻿; Cocoaキーバインド
+; https://qiita.com/kopug/items/13cc256104eebc16828c
+
+set_ignore_applications() {
 ;  GroupAdd "IgnoreApplications", "ahk_class CASCADIA_HOSTING_WINDOW_CLASS" ; Windows Terminal
   GroupAdd "IgnoreApplications", "ahk_exe Code.exe" ; Visual Studio Code
   GroupAdd "IgnoreApplications", "ahk_exe Cursor.exe" ; Cursor AI Editor
@@ -140,4 +143,3 @@ main()
 ; <alt+l>
 ; Focuses on the URL bar in a browser
 !l::Send "^l"
-
