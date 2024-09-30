@@ -48,6 +48,10 @@ main()
 ; Moves cursor one character to the right while selecting text
 +^f::Send "+{Right}"
 
+; <ctrl+i>
+; Deletes the character to the left of the cursor (Backspace)
+^i::Send "{Tab}"
+
 ; <shift+ctrl+p>
 ; Moves cursor one line up while selecting text
 +^p::Send "+{Up}"

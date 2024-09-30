@@ -15,10 +15,6 @@ main()
 ; Deletes the character to the left of the cursor (Backspace)
 ^h::Send "{BS}"
 
-; <ctrl+i>
-; Deletes the character to the left of the cursor (Backspace)
-^i::Send "{Tab}"
-
 ; <ctrl+m>
 ; Inserts a new line (Enter)
 ^m::Send "{Enter}"
@@ -34,3 +30,9 @@ main()
 ; <ctrl+[>
 ; Deletes the character to the left of the cursor (Backspace)
 ^[::Send "{Esc}"
+
+; WindowsキーとAltキーの入れ替え
+LWin::LAlt
+LAlt::LWin
+RWin::RAlt
+RAlt::RWin
